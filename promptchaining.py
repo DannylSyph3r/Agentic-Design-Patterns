@@ -79,7 +79,7 @@ json_prompt = ChatPromptTemplate.from_template(
     }}"""
 )
 
-# Create chained pipeline - THIS IS THE LANGCHAIN CHAINING
+# Create chained pipeline
 def format_for_thread(key_points):
     return {"key_points": key_points}
 
